@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="maximum-dpr=2" name="flexible" />
+    <meta name="apple-touch-fullscreen" content="no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title></title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/stylesheets/app.min.css">
+    <!-- endinject -->
+    <script src="assets/scripts/video.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <div class="bd">
+        <img src="assets/images/header.jpg" alt="" height="703"/>
+        <a class="pa logo" href=""></a>
+        <a class="pa menu01" href="#future"></a>
+        <a class="pa menu02" href="#video"></a>
+        <a class="pa menu03" href="#registration"></a>
+        <a class="pa menu04" href="#rule"></a>
+
+        <a class="pa btn" href="#registration"></a>
+    </div>
+</div>
+
+<div class="future" id="future"></div>
+
+<div class="video" id="video">
+    <div class="bd">
+        <img class="pa title" src="assets/images/tt01.jpg" alt="" width="301" height="40"/>
+        <div class="pa video-wrap">
+            <video id="example_video_1" class="video-js vjs-default-skin" controls preload width="560" height="354"
+                   poster="assets/images/video_placeholder.jpg"
+                   data-setup="{}">
+                <source src="assets/images/video.mp4" type='video/mp4' />
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="registration" id="registration">
+    <div class="bd">
+        <img class="pa title" src="assets/images/tt02.jpg" alt="" width="477" height="40"/>
+
+        <form class="pa form" action="">
+            <p>
+                <input class="text" type="text" placeholder="您的真实姓名以便领奖" name="name"/>
+            </p>
+            <p style="position: relative;">
+                <input class="pa" type="radio" name="sex" value="female" aria-valuemax="0" checked style="top: 13px; left: 20px; margin: 0;"/><input class="pa" type="radio" name="sex" value="1" style="top: 12px; left: 162px; margin: 0;"/>
+            </p>
+            <p>
+                <select class="age" name="age">
+                    <option value ="0">仅限18-49岁用户参与</option>
+                    <option value ="15岁以下">15岁以下</option>
+                    <option value="15-17">15-17</option>
+                    <option value="18-21">18-21</option>
+                    <option value="22-24">22-24</option>
+                    <option value="25-29">25-29</option>
+                    <option value="30-39">30-39</option>
+                    <option value="40-49">40-49</option>
+                    <option value="49岁以上">49岁以上</option>
+                </select>
+            </p>
+            <p>
+                <input class="text" type="text" placeholder="以便联系你及时兑奖" name="mobile"/>
+            </p>
+            <p>
+                <select name="city" class="city">
+                    <option value="0">仅限18-仅限以下11个城市用户参与</option>
+                    <option value="北京">北京</option>
+                    <option value="天津">天津</option>
+                    <option value="青岛">青岛</option>
+                    <option value="南京">南京</option>
+                    <option value="上海">上海</option>
+                    <option value="无锡">无锡</option>
+                    <option value="苏州">苏州</option>
+                    <option value="杭州">杭州</option>
+                    <option value="广州">广州</option>
+                    <option value="深圳">深圳</option>
+                    <option value="佛山">佛山</option>
+                </select>
+            </p>
+            <p>
+                <input class="text" type="email" placeholder="以便为您提供获奖礼物" name="mail"/>
+            </p>
+
+            <input class="pa submit" type="submit" value=""/>
+        </form>
+    </div>
+</div>
+
+<div class="ruler" id="rule">
+    <div class="bd">
+        <img src="assets/images/rule.png" alt="" height="861"/>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="bd">
+        <img src="assets/images/footer.jpg" height="59" width="952" alt=""/>
+    </div>
+</div>
+
+<div class="float-window">
+    <p class="content"></p>
+    <img src="assets/images/warning-alert.png" width="300">
+</div>
+
+<div class="success-window">
+    <div class="content">
+        <p class="h3">提交成功！</p>
+        <p class="h4">我们会与您取得联系</p>
+        <p class="h5">请保持手机畅通！</p>
+    </div>
+    <img src="assets/images/alert-ok.png" width="300"  alt=""/>
+</div>
+
+<div class="float-window-bg"></div>
+
+<!-- inject:js -->
+<script src="assets/scripts/app.min.js"></script>
+<!-- endinject -->
+</body>
+</html>
